@@ -37,7 +37,7 @@ Driver-Drowsiness-Detection/
 📦 Installation
 1. Clone the Repository
 bash
-git clone https://github.com/your-username/Driver-Drowsiness-Detection.git
+git clone https://github.com/Mahaakula10/driver_drowsiness_ai.git
 
 2. Navigate to the Project Directory
 bash
@@ -70,7 +70,7 @@ Place an audio file named music.wav in the root project directory. This file wil
 Execute the following command:
 
 bash
-python drowsiness_detection.py
+python main.py
 
 
 Make sure your webcam is connected and accessible.
@@ -115,20 +115,10 @@ Frame Check: 20 consecutive frames
 
 If the EAR remains below 0.25 for 20 consecutive frames, an alarm is triggered.
 
-📸 Output
-
 The application displays:
 
 Live webcam video.
 Green contours around the detected eyes.
 A warning message when prolonged eye closure is detected.
 An audio alarm when possible drowsiness is identified.
-🚀 Future Enhancements
-Improve detection accuracy under different lighting conditions.
-Add head-pose estimation.
-Integrate yawning detection.
-Develop a mobile application.
-Add driver attention monitoring.
-Store drowsiness detection events for analysis.
-⚠️ Limitations
-Requires a working webcam
+
